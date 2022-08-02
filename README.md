@@ -1,3 +1,11 @@
+
+at 21:24
+Youtube
+freeCodeCamp.org
+React & TypeScript - Course for Beginners
+https://www.youtube.com/watch?v=FJDVKeh7RJI
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +52,60 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+# typescript 101
+
+typescriptlang.org/docs/handbook/2/...
+
+Alias
+interface and Type
+
+//
+let name: string; // type 'any' is not recommended
+let age: number | string;// | is union
+let isStudent: boolean;
+let hobbies: string[]; // an array of strings
+let role: [number, string]; //an array with one number and type string
+
+let printName: (name:string) => void;  // a number return instead of void...
+
+interface Person {
+  name: string;
+  age?: number;
+}
+//Interfaces work better with Objects and method objects.  
+//Types are better for functions and complx types
+interface Professional extends Person {
+  profession: string;
+}
+
+// Types are composed with & and interfaces are composed with extends
+// Types and interfaces can be composed
+
+
+type X = {
+  a: string;
+  b: number;
+}
+
+type Y = X & {  // & is like Y extends X and here are the the rest of the values
+  c: string;
+  d: number;
+}
+
+
+
+// type Person = {
+//   name: string;
+//   age?: number; // question mark makes it optional
+// }
+
+// let person: Person = {
+//   name: "Phillip",
+//   age: 35
+// };
+
+// let lotsOfPeople: Person[]; // array of people
+
+let personName
