@@ -109,3 +109,9 @@ type Y = X & {  // & is like Y extends X and here are the the rest of the values
 // let lotsOfPeople: Person[]; // array of people
 
 let personName
+
+// I 
+
+// I added a completed tasks column to prepare for drag and drop funcionality.
+
+// installed react beautiful dnd (drag n drop)
