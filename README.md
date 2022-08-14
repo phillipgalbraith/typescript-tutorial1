@@ -53,6 +53,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+# beautiful-dnd
+drag and drop installed
+npm i react-beautiful-dnd
+using --legacy-peer-dep
 
 # typescript 101
 
